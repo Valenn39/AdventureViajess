@@ -1,14 +1,14 @@
 {
-  "name": "vite-starter",
+  "name": "vite-app",
   "private": true,
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "start": "node ./servidor/app.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "dependencies": {
-    "body-parser": "^2.2.0",
-    "dotenv": "^17.2.3",
-    "mysql": "^2.18.1",
-    "nodemailer": "^7.0.13"
+  "devDependencies": {
+    "vite": "^5.0.0"
   }
 }
