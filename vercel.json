@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/cliente/ini-reg/sesion.html" },
+    { "source": "/(.*)", "destination": "/cliente/$1" }
+  ]
+}
